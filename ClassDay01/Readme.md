@@ -1,1 +1,1 @@
-class day 1 documents
+#class day 1 documents
