@@ -1,0 +1,16 @@
+git config --global user.name "HJI"
+git config --global user.email jaicoco@naver.com
+git init
+git clone https://github.com/jaicoco/PythonStudy.git
+
+파일 수정 뒤
+
+git add .
+git commit 
+
+git commit -m 'test'
+git remote
+
+git remote -v
+
+git push origin master
