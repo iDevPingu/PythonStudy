@@ -14,3 +14,12 @@ git remote
 git remote -v
 
 git push origin master
+
+Branch 하는법
+
+git폴더에서
+git branch JaeIck JaeIck
+해당 폴더에서 작업끝낸뒤
+git checkout master
+git merge JaeIck JaeIck
+git push origin master
