@@ -17,9 +17,15 @@ git push origin master
 
 Branch 하는법
 
-git폴더에서
-git branch JaeIck JaeIck
-해당 폴더에서 작업끝낸뒤
-git checkout master
-git merge JaeIck JaeIck
-git push origin master
+git폴더에서 branch 최초생성방법
+
+git branch JaeIck 
+
+해당 폴더에서 작업끝낸뒤 master로 업로드 원할시
+git checkout master (master로 전환)
+git merge jaeick (jaeick branch정보 master로 merge)
+git push origin master (master branch로 push)
+
+git push origin jaeick (jaeick branch로 push)
+
+물론 모든 push 전에는 add, commit 필수
